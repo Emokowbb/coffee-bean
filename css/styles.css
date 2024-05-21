@@ -320,7 +320,7 @@ body {
     font-family: "Playfair Display";
 }
 
-.main3item {
+.main3item{
     display: flex;
     position: absolute;
     right: -100px;
@@ -841,40 +841,44 @@ li {
 .main8box2-li1 {
     max-width: 332px;
 }
-
-@media screen and (max-width: 375px) {
-    body{
-        width: 90%;
-        margin: auto;
-    }
-}
-
 @media screen and (max-width: 650px) {
     body {
-        width: 100%;
-        margin: 0;
+        width: 650px;
+        /* flex-wrap: wrap; */
+        margin: auto;
     }
     .section{
         width: 100%;
-        margin: auto;
+        margin: 0;
     }
     .nav1{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding: 0;
+        margin: 10px;
+
     }
     .main1{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         align-self: flex-start;
-
+    }
+    .main1container{
+        margin: 10px;
+        padding: 0;
+        width: 90%;
+    }
+    .main1box{
+        width: fit-content;
     }
     .main1box-h1{
         font-size: 120px;
     }
     .main1box-p{
-        /* width: 250px; */
+        width: 250px;
+        flex-wrap: wrap;
     }
     .main2{
         display: flex;
@@ -884,12 +888,12 @@ li {
         margin: auto;
         width: 90%;
     }
-    .main2box1{
+    /* .main2box1{
         width: 300px;
-    }
-    .main2box2 > img{
+    } */
+    /* .main2box2 > img{
         width: 300px;
-    }
+    } */
     .main3{
         width: 90%;
         margin: auto;
@@ -897,6 +901,11 @@ li {
     .main3box{
         display: flex;
         flex-direction: column;
+    }
+    .main3item{
+        left: px;
+        right: 10px;
+        /* height: 100px; */
     }
     .main4{
         width: 90%;
@@ -910,7 +919,7 @@ li {
         margin-bottom: 50px;
     }
     .main5-container1{
-        width: 400px;
+        width: 300px;
     }
     .nav1 {
         display: flex;
@@ -929,8 +938,8 @@ li {
     .main6-box{
         padding-left: 30px;
     }
-    .main6-box-image3 {
-        right: 50%;
+    .main6-image1{
+        right: 20px;
     }
     .main7box-h1{
         width: 300px;
