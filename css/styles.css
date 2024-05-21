@@ -1,0 +1,953 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: screen;
+    margin: auto;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.section {
+    width: 100%;
+}
+
+.main1 {
+    width: 100%;
+    background-image: url("../img/coffee_image.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 93px 0 93px;
+    flex-wrap: wrap;
+    padding: 25px 0 25px 0;
+}
+
+.navbox1 {
+    color: #fff;
+    font-family: "Clicker Script";
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.navbox2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.navbox2 a {
+    float: left;
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbox3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbox3item1 a {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbox3item2 {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(249, 192, 106);
+    height: 100%;
+}
+
+.navbox3item2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.main1container {
+    display: flex;
+    flex-direction: column;
+    margin: 95px 93px 95px 93px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.main1box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 535px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.main1box-h3 {
+    font-family: "Playfair Display";
+    font-size: 22px;
+    flex-wrap: wrap;
+}
+
+.main1box-h1 {
+    font-family: "Clicker Script";
+    font-size: 200px;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.main1box-p {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.main1button {
+    border: 1px solid rgb(249, 192, 106);
+    background-color: rgb(249, 192, 106);
+    border-radius: 50px;
+    padding: 16px;
+}
+
+.main1button a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin: 70px 93px 0 93px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.main2box1{
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main2box2 {
+    width: 500px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.main2box1>img {
+    width: 100%;
+    height: 100%;
+}
+
+.main2box1-h1 {
+    font-family: "Playfair Display";
+    font-size: 54px;
+    font-weight: 700;
+    color: rgb(96, 56, 9);
+}
+
+.main2box1-p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+    margin: 30px 0 30px 0;
+}
+
+.main2box1-button {
+    width: 135px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 40px;
+    background-color: rgb(249, 192, 106);
+    border: 1px solid rgb(249, 192, 106);
+}
+
+.main2box1-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.main2box3 {
+    display: flex;
+    position: absolute;
+    left: -150px;
+    bottom: -60px;
+    /* transform: rotate(90deg); */
+    /* transform: scaleY(2); */
+}
+
+.main3 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0 70px 0;
+    margin: 0 93px 0 93px;
+    gap: 10px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.main3box {
+    display: flex;
+}
+
+.main3-h1 {
+    color: rgb(96, 56, 9);
+    font-family: "Playfair Display";
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.main3-p {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+}
+
+.main3box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.main3box1 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 364px;
+    border: 1px solid rgba(249, 193, 108, 0.42);
+    background-color: rgb(255, 249, 241);
+    position: relative;
+}
+
+.main3container1 {
+    object-fit: cover;
+    width: 280px;
+    height: 100%;
+}
+
+.main3container1>img {
+    width: 100%;
+    height: 100%;
+}
+
+.main3container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main3container2-h1 {
+    color: rgb(96, 56, 9);
+    font-size: 22px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+}
+
+.main3container2-p {
+    color: rgb(30, 30, 30);
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main3container2-price {
+    color: rgb(96, 56, 9);
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.main3container3 {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    bottom: -25px;
+}
+
+.main3container3-button {
+    background-color: rgb(249, 192, 106);
+    border: 1px solid rgb(249, 192, 106);
+    border-radius: 30px;
+    width: 134px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main3container3-button a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.main3item {
+    display: flex;
+    position: absolute;
+    right: -100px;
+    bottom: -90px;
+    transform: rotate(180deg);
+}
+
+.main4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 93px 82px 93px;
+}
+
+.main4-h1 {
+    font-family: "Playfair Display";
+    font-size: 54px;
+    font-weight: 700;
+    color: rgb(96, 56, 9);
+    z-index: 1;
+}
+
+.main4-p {
+    color: rgb(112, 112, 112);
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main4-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main4-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 284px;
+    background-color: rgb(255, 249, 241);
+    border: 1px solid rgba(249, 193, 108, 0.42);
+}
+
+.main4-items:hover {
+    background-color: rgba(249, 193, 108, 0.42);
+}
+
+.main4-items-h1 {
+    color: rgb(96, 56, 9);
+    display: block;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.main4-items-p {
+    color: rgb(112, 112, 112);
+    display: block;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 192px;
+    min-width: 134px;
+}
+
+.main4-h2 {
+    color: rgb(96, 56, 9);
+    display: block;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main4-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(249, 192, 106);
+    border: 1px solid rgb(249, 192, 106);
+    border-radius: 30px;
+    width: 134px;
+    height: 48px;
+}
+
+.main4-button a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.main5 {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: rgb(96, 56, 9);
+    background-image: url("../img/coffee+bean.png");
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main5-container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 93px 0 93px;
+    padding: 54px 0 54px 0;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+}
+
+.main5box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 575px;
+    position: relative;
+}
+
+.main5box-h1 {
+    font-family: "Playfair Display";
+    font-size: 54px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.main5box-p {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.main5box-button {
+    background-color: rgb(249, 192, 106);
+    border-radius: 30px;
+    border: 1px solid rgb(249, 192, 106);
+    border-radius: 30px;
+    width: 134px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.main5box-button a {
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+
+}
+
+.main5box2 {
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.main5box2>img {
+    height: 100%;
+}
+
+.main5-container2 {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+}
+
+.main5-container2>img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.main6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 93px 0 93px;
+    padding: ;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.main6-h1 {
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    margin: 82px 0 16px 0;
+    font-family: "Playfair Display";
+    z-index: 1;
+}
+
+.main6-p {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 45px 0;
+    font-family: "Playfair Display";
+    gap: 30px;
+}
+
+.main6-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid hsla(36, 92%, 70%, .42);
+    ;
+    background-color: rgb(255, 249, 241);
+    max-width: 980px;
+    position: relative;
+    margin: 0 0 100px 0;
+}
+
+.main6-box-h1 {
+    color: rgb(96, 56, 9);
+    font-family: "Playfair Display";
+    font-size: 220px;
+    font-weight: 700;
+    margin: 54px 0 0 29px;
+    align-self: flex-start;
+}
+
+.main6-box-p {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 100px 0 100px;
+    text-align: center;
+
+}
+
+.main6-box-h2 {
+    color: #603809;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    z-index: 1;
+}
+
+.main6-box-p2 {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin: 0 0 100px 0;
+    text-align: center;
+}
+
+.main6-box-image1 {
+    display: flex;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    bottom: 280px;
+    left: -43px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 192, 106);
+    background-color: rgb(249, 192, 106);
+    justify-content: center;
+}
+
+.main6-box-image2 {
+    display: flex;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    bottom: 280px;
+    right: -43px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 192, 106);
+    background-color: rgb(249, 192, 106);
+}
+
+.main6-box-image3 {
+    display: flex;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    border-radius: 15px 5px 15px 5px;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+
+}
+
+.main6-image1 {
+    position: absolute;
+    display: flex;
+    top: 110px;
+    right: -105px;
+    transform: rotate(180deg);
+}
+
+.main6-image2 {
+    position: absolute;
+    display: flex;
+    bottom: 110px;
+    left: -105px;
+}
+
+.main7 {
+    display: flex;
+    background-image: url("../img/coffee+bean.png");
+    background-color: #603809;
+    background-blend-mode: overlay;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.main7box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display";
+    margin: 0 93px 0 93px;
+    padding: 80px 0 80px 0;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.main7box-h1 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.main7box-p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.main7box-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.main7box-email>input {
+    border: 1px solid hsla(36, 92%, 70%, .42);
+    color: rgba(0, 0, 0, .34);
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 26px 16px 26px;
+    width: 448px;
+}
+
+.main7box-email>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9c06a;
+    border: 1px solid #f9c06a;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 6px 12px hsla(36, 92%, 70%, .22);
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 16px 26px 16px 26px;
+}
+
+.main7box-email>button a {
+    color: #603809;
+    text-decoration: none;
+}
+
+.main7-item1 {
+    display: flex;
+    position: absolute;
+    top: 125px;
+    left: -10px;
+    z-index: 1;
+}
+
+.main7-item2 {
+    display: flex;
+    position: absolute;
+    top: 125px;
+    right: -10px;
+    transform: scaleX(-1);
+    z-index: 1;
+}
+
+.main8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fotter_image.png);
+    background-color: #442808;
+    background-blend-mode: overlay;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    height: 100%;
+}
+
+.main8box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 93px 0 93px;
+    padding: 162px 0 72px 0;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+}
+
+.main8box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.main8box1-h1 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: "Clicker Script";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main8box1-p {
+    max-width: 380px;
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main8-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: start;
+    gap: 30px;
+}
+
+.main8box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main8box2-h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display";
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 55px 0;
+}
+
+.main8box2>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.main8box2>ul,
+li {
+    color: rgb(255, 255, 255);
+    display: list-item;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main8box2-li1 {
+    max-width: 332px;
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    .section{
+        width: 100%;
+        margin: auto;
+    }
+    .nav1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: flex-start;
+
+    }
+    .main1box-h1{
+        font-size: 120px;
+    }
+    .main1box-p{
+        /* width: 250px; */
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: flex-start;
+        margin: auto;
+        width: 90%;
+    }
+    .main2box1{
+        width: 300px;
+    }
+    .main2box2 > img{
+        width: 300px;
+    }
+    .main3{
+        width: 90%;
+        margin: auto;
+    }
+    .main3box{
+        display: flex;
+        flex-direction: column;
+    }
+    .main4{
+        width: 90%;
+        margin: auto;
+    }
+    .main4-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main4-button {
+        margin-bottom: 50px;
+    }
+    .main5-container1{
+        width: 400px;
+    }
+    .nav1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbox2{
+        display: none;
+    }    
+    .main5box2{
+        display: none;
+    }
+    .main6{
+        width: 90%;
+        margin: auto;
+    }
+    .main6-box{
+        padding-left: 30px;
+    }
+    .main6-box-image3 {
+        right: 50%;
+    }
+    .main7box-h1{
+        width: 300px;
+    }
+    .main7box-p{
+        width: 300px;
+    }
+    .main7box-email > input{
+        width: 150px;
+    }
+    .main8{
+        justify-content: flex-start;
+    }
+    .main8box {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        margin: auto;
+    }
+}
