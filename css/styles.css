@@ -573,7 +573,7 @@ body {
     font-weight: 600;
     margin: 0 100px 0 100px;
     text-align: center;
-
+    z-index: 1;
 }
 
 .main6-box-h2 {
@@ -868,7 +868,6 @@ li {
         font-size: 120px;
     }
     .main1box-p{
-        width: 250px;
         flex-wrap: wrap;
     }
     .main2{
@@ -896,10 +895,12 @@ li {
         display: flex;
         flex-direction: column;
     }
+    .main3box1{
+
+    }
     .main3item{
         left: px;
-        right: 10px;
-        /* height: 100px; */
+        right: -20px;
     }
     .main4{
         width: 90%;
@@ -928,12 +929,13 @@ li {
     .main6{
         width: 90%;
         margin: auto;
+        overflow-x: hidden;
     }
     .main6-box{
         width: 60%;
     }
     .main6-image1{
-        right: 20px;
+        right: -20px;
     }
     .main7box-h1{
         width: 300px;
