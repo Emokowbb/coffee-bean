@@ -1,11 +1,12 @@
-*,
-html {
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+*,html {
     margin: 0;
     padding: 0;
 }
 
 body {
-
+    
 }
 
 .section {
